@@ -136,21 +136,21 @@ body {
 @media (max-width: 507px) {
   .basket {
     width: 470px;
-    font-size: 26px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 470px) {
   .basket {
     width: 420px;
-    font-size: 18px;
+    font-size: 28px;
   }
 }
 
 @media (max-width: 390px) {
   .basket {
     width: 360px;
-    font-size: 16px;
+    font-size: 26px;
   }
   .btn {
     font-size: 10px;
@@ -171,14 +171,14 @@ body {
 @media (max-width: 320px) {
   .basket {
     width: 300px;
-    font-size: 16px;
+    font-size: 24px;
   }
 }
 
 @media (max-width: 280px) {
   .basket {
     width: 260px;
-    font-size: 14px;
+    font-size: 18px;
   }
   .btn {
     font-size: 8px;
