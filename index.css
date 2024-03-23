@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter Tight";
+  background: linear-gradient(180deg, #65a4db, #fffde4, #005aa7);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.basket {
+  display: flex;
+  font-size: 42px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 580px;
+  height: 200px;
+  background-color: #e2e8f0;
+  border-left: 2px solid #1e293b;
+  border-right: 2px solid #1e293b;
+  border-bottom: 2px solid #1e293b;
+
+  border-radius: 6px;
+}
+.other-content {
+  display: flex;
+  gap: 24px;
+}
+.btns {
+  margin-top: 10px;
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+}
+.single-fruit-basket {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4ade80;
+}
+.btn:active,
+.btn:hover {
+  background-color: #22c55e;
+  /* color: white; */
+}
+.fruit-basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 100px;
+  background-color: #e2e8f0;
+  border-left: 2px solid #1e293b;
+  border-right: 2px solid #1e293b;
+  border-bottom: 2px solid #1e293b;
+  border-radius: 6px;
+}
+
+@media (max-width: 1024px) {
+  .btns {
+    gap: 8px;
+    padding: 10px;
+  }
+  .fruit-basket {
+    gap: 8px;
+    width: 180px;
+    height: 90px;
+    font-size: 20px;
+  }
+  .btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .basket {
+    font-size: 36px;
+    width: 500px;
+  }
+  .btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 60vh;
+    gap: 8px;
+    padding: 6px;
+  }
+  .fruit-basket {
+    gap: 6px;
+    width: 160px;
+    height: 80px;
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 507px) {
+  .basket {
+    width: 470px;
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 470px) {
+  .basket {
+    width: 420px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .basket {
+    width: 360px;
+    font-size: 16px;
+  }
+  .btn {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 50vh;
+    gap: 6px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .basket {
+    width: 300px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 280px) {
+  .basket {
+    width: 260px;
+    font-size: 14px;
+  }
+  .btn {
+    font-size: 8px;
+    padding: 6px;
+  }
+  .btns {
+    height: 100vh;
+  }
+}
